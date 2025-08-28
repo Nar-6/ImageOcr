@@ -1,0 +1,84 @@
+{
+  "formats": [
+    {
+      "country": "France",
+      "type": "CNI",
+      "format_regex": "^[0-9]{12}$",
+      "example": "123456789012",
+      "fields": [
+        "Nom",
+        "Prénom",
+        "Sexe",
+        "Date de naissance",
+        "Numéro d'identité"
+      ],
+      "source": "https://www.service-public.fr/particuliers/vosdroits/F2109"
+    },
+    {
+      "country": "États-Unis",
+      "type": "Passeport",
+      "format_regex": "^[0-9]{9}$",
+      "example": "123456789",
+      "fields": [
+        "Nom",
+        "Prénom",
+        "Sexe",
+        "Date de naissance",
+        "Numéro de passeport"
+      ],
+      "source": "https://travel.state.gov"
+    },
+    {
+      "country": "Allemagne",
+      "type": "Carte d'identité (Personalausweis)",
+      "format_regex": "^[A-Z0-9]{9}$",
+      "example": "T22000129",
+      "fields": [
+        "Name",
+        "Geburtsdatum",
+        "Ausweisnummer"
+      ],
+      "source": "https://www.personalausweisportal.de"
+    },
+    {
+      "country": "Espagne",
+      "type": "DNI",
+      "format_regex": "^[0-9]{8}[A-Z]$",
+      "example": "12345678Z",
+      "fields": [
+        "Nombre",
+        "Apellidos",
+        "Fecha de nacimiento",
+        "DNI"
+      ],
+      "source": "https://www.dnielectronico.es"
+    },
+    {
+      "country": "Italie",
+      "type": "Carte d'identité (CIE)",
+      "format_regex": "^[A-Z]{2}[0-9]{7}$",
+      "example": "CA1234567",
+      "fields": [
+        "Cognome",
+        "Nome",
+        "Data di nascita",
+        "Numero"
+      ],
+      "source": "https://www.cartaidentita.interno.gov.it"
+    },
+    {
+      "country": "Canada",
+      "type": "Permis de conduire (Québec)",
+      "format_regex": "^[A-Z]{4}[0-9]{8}$",
+      "example": "ABCD19800202",
+      "fields": [
+        "Nom",
+        "Prénom",
+        "Adresse",
+        "Date de naissance",
+        "Numéro"
+      ],
+      "source": "https://saaq.gouv.qc.ca"
+    }
+  ]
+}

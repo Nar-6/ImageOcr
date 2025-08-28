@@ -1,0 +1,167 @@
+{
+  "Sénégal": {
+    "CNI": {
+      "format": "#########",
+      "longueur": 9,
+      "type": "numeric"
+    },
+    "Passeport": {
+      "format": "AB######",
+      "longueur": 8,
+      "type": "alphanumeric"
+    }
+  },
+  "Côte d'Ivoire": {
+    "CNI": {
+      "format": "CI-########",
+      "longueur": 10,
+      "type": "alphanumeric"
+    },
+    "Passeport": {
+      "format": "CI########",
+      "longueur": 10,
+      "type": "alphanumeric"
+    }
+  },
+  "Burkina Faso": {
+    "CNI": {
+      "format": "########",
+      "longueur": 8,
+      "type": "numeric"
+    }
+  },
+  "Mali": {
+    "CNI": {
+      "format": "########",
+      "longueur": 8,
+      "type": "numeric"
+    },
+    "Passeport": {
+      "format": "A#######",
+      "longueur": 8,
+      "type": "alphanumeric"
+    }
+  },
+  "Niger": {
+    "CNI": {
+      "format": "#########",
+      "longueur": 9,
+      "type": "numeric"
+    }
+  },
+  "Togo": {
+    "CNI": {
+      "format": "TG########",
+      "longueur": 10,
+      "type": "alphanumeric"
+    }
+  },
+  "Bénin": {
+    "CNI": {
+      "format": "##########",
+      "longueur": 10,
+      "type": "numeric"
+    }
+  },
+  "Guinée": {
+    "CNI": {
+      "format": "GN########",
+      "longueur": 10,
+      "type": "alphanumeric"
+    }
+  },
+  "Ghana": {
+    "National ID": {
+      "format": "GHA-########",
+      "longueur": 12,
+      "type": "alphanumeric"
+    }
+  },
+  "Nigeria": {
+    "NIN": {
+      "format": "############",
+      "longueur": 11,
+      "type": "numeric"
+    },
+    "Voter ID": {
+      "format": "##-####-##",
+      "longueur": 10,
+      "type": "alphanumeric"
+    }
+  },
+  "Kenya": {
+    "ID": {
+      "format": "########",
+      "longueur": 8,
+      "type": "numeric"
+    },
+    "Passport": {
+      "format": "A########",
+      "longueur": 9,
+      "type": "alphanumeric"
+    }
+  },
+  "Cameroun": {
+    "CNI": {
+      "format": "############",
+      "longueur": 12,
+      "type": "numeric"
+    }
+  },
+  "Tchad": {
+    "CNI": {
+      "format": "TD########",
+      "longueur": 10,
+      "type": "alphanumeric"
+    }
+  },
+  "RDC": {
+    "CNI": {
+      "format": "CD########",
+      "longueur": 10,
+      "type": "alphanumeric"
+    }
+  },
+  "Congo Brazzaville": {
+    "CNI": {
+      "format": "CB########",
+      "longueur": 10,
+      "type": "alphanumeric"
+    }
+  },
+  "Rwanda": {
+    "ID": {
+      "format": "1########",
+      "longueur": 9,
+      "type": "numeric"
+    }
+  },
+  "Ouganda": {
+    "NIN": {
+      "format": "CM########",
+      "longueur": 10,
+      "type": "alphanumeric"
+    }
+  },
+  "Zambie": {
+    "ID": {
+      "format": "######/##/#",
+      "longueur": 11,
+      "type": "alphanumeric"
+    }
+  },
+  "Afrique du Sud": {
+    "ID": {
+      "format": "#############",
+      "longueur": 13,
+      "type": "numeric"
+    }
+  },
+  "Éthiopie": {
+    "ID": {
+      "format": "########",
+      "longueur": 8,
+      "type": "numeric"
+    }
+  }
+}

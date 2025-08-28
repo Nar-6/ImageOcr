@@ -1,0 +1,11 @@
+opencv-python
+pytesseract
+rapidfuzz
+numpy
+pillow
+
+# Pour pytesseract, vous aurez aussi besoin de Tesseract OCR
+# Installation de Tesseract :
+# Windows: https://github.com/UB-Mannheim/tesseract/wiki
+# Linux: sudo apt-get install tesseract-ocr
+# Mac: brew install tesseract
